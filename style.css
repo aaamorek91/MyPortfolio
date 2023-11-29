@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #dfe6ee;
+}
+
+/* Nav bar container */
+#container-nav-bar {
+	opacity: 0.8;
+	display: flex;
+	padding: 10px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*nav-bar hover efect*/
+li:hover {
+	opacity: 0.5;
+	color: #855564;
+	font-weight: bold;
+}
+
+/*Logo*/
+#logo {
+	padding: 20px;
+	font-size: 35px;
+	font-family: "Abril Fatface", serif;
+	color: #855564;
+}
+
+/*container-nav-bar*/
+#nav-bar ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+#nav-bar li {
+	margin-left: 20px;
+	padding: 20px;
+	margin-right: 30px;
+	font-size: 16px;
+}
+
+/*Hero Section*/
+.hero-section {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+	width: 100%;
+	z-index: -1;
+	border: solid #3e5523 2px;
+	text-align: center;
+	padding-top: 30px;
+	display: flex;
+	background-color: #855564;
+	text-shadow: 4px 3px 0px #3e5523, 8px 23px 6px rgba(133, 85, 100, 0.33);
+}
+/* Hero section content*/
+.hero-h1 {
+	font-size: 46px;
+}
+
+.hero-main-text {
+	display: flex;
+	text-align: center;
+	color: #dfe6ee;
+	font-size: 46px;
+	margin: auto;
+	font-family: "Abril Fatface", serif;
+}
+
+/*Portrait in hero section*/
+#about-me-container {
+	display: flex;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	padding: 50px;
+	font-family: "Poppins", sans-serif;
+}
+
+#portrait {
+	border-radius: 10%;
+	height: 500px;
+	box-shadow: 25px 30px #3e5523;
+	margin: 20px;
+}
+
+#about-me-text {
+	padding: 20px;
+	color: #3e5523;
+	font-size: 16px;
+	font-family: "Poppins", sans-serif;
+}
+
+h2 {
+	font-size: 25px;
+	padding: 5px;
+}
+
+/* My projects section */
+.flexcontainer-laptop-img {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #3e5523;
+	padding: 50px;
+}
+
+h3 {
+	background-color: #3e5523;
+	text-align: center;
+	padding: 20px;
+	font-size: 28px;
+	color: #dfe6ee;
+}
+
+/* IMG gallery- img container size */
+.img-1,
+.img-2,
+.img-3 {
+	width: 280px;
+	height: 250px;
+	padding: 10px;
+}
+
+/* IMG gallery- hover/opacity effect*/
+.img-1:hover,
+.img-2:hover,
+.img-3:hover {
+	opacity: 0.4;
+	padding: 5px;
+}
+
+/* My projects, flexcontainer and text*/
+.h4-form {
+	display: flex;
+	justify-content: center;
+	font-family: "Poppins", sans-serif;
+	background-color: #855564;
+	color: #f2f2f2;
+	font-size: 25px;
+	padding: 20px;
+}
+
+/*contact me section + form*/
+
+input[type="text"],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-family: "Poppins", sans-serif;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+	background-color: #3e5523;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+	background-color: #dfe6ee;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.h4-our-team {
+	text-align: center;
+	font-size: 28px;
+	background-color: #855564;
+	color: #dfe6ee;
+	padding: 15px;
+}
+
+/* FOOTER */
+footer {
+	width: 100%;
+	margin: auto;
+	height: 100px;
+	padding: 40px;
+	margin-top: 20px;
+	display: flex;
+	background-color: #ad6e83;
+	color: #e5a478;
+	align-items: center;
+	justify-content: space-around;
+}
+
+/*Social media icons*/
+.social-media-icons {
+	list-style: none;
+	display: inline-block;
+	display: flex;
+	justify-content: space-around;
+	width: 20%;
+}
+
+.instagram {
+	width: 70px;
+	height: 70px;
+}
+.facebook {
+	width: 70px;
+	height: 70px;
+}
+.twitter {
+	width: 70px;
+	height: 70px;
+}
+
+/*Hover efect*/
+.instagram:hover {
+	padding: 10px;
+	opacity: 0.6;
+}
+.facebook:hover {
+	padding: 10px;
+	opacity: 0.6;
+}
+
+.twitter:hover {
+	padding: 10px;
+	opacity: 0.6;
+}
